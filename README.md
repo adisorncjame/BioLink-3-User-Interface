@@ -50,23 +50,6 @@ BioLink 3 User Interface Connect data via APi BioStar 2 <br>
 | Letters Format | Compensate Amount | Text Alignment | Compensate |
 | ------------- | ------------- | ------------- | ------------- | 
 
-
-#### Example 1 : 
-I want to export userid by adding - to the missing data on the right, 10 Characters
-
-##### Formats
-| I | 10 | L | D |
-| ------------- | ------------- | ------------- | ------------- | 
-##### Data Example
-| USERID | RESULT |
-| ------------- | ------------- | 
-| 444555 | ----444555 |
-| 666777 | ----666777 |
-
-
-
-
-
 ### Compensate
 | Letters | Export Value |
 | ------------- | ------------- |
@@ -81,7 +64,6 @@ I want to export userid by adding - to the missing data on the right, 10 Charact
 | ------------- | ------------- |
 | L | Left |
 | R | Right |
-
 
 ### Letters Formats
 | Letters | Export Value |
@@ -112,6 +94,17 @@ I want to export userid by adding - to the missing data on the right, 10 Charact
 | Y | User Custom Fields 10 |
 | % | Aphabet Charset |
 
+## Example
+
+#### Example 1
+I want to export userid by adding - to the missing data on the right, 10 Characters
+| I | 10 | L | D |
+| ------------- | ------------- | ------------- | ------------- | 
+##### Result
+| USERID | RESULT |
+| ------------- | ------------- | 
+| 444555 | ----444555 |
+| 666777 | ----666777 |
 
 
 
