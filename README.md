@@ -106,6 +106,34 @@ I want to export userid by adding - to the missing data on the right, 10 Charact
 | 444555 | ----444555 |
 | 666777 | ----666777 |
 
+#### Example 2
+I want to export userid and datetime format dd/mm/yyyy HH:ss
+| I6LW | Ddd/MM/yyyy HH:mmLW | 
+| ------------- | ------------- |
+##### Result
+| USERID | DATETIME | RESULT |
+| ------------- | ------------- | ------------- | 
+| 444555 | 01/10/2023 09:30:44 | 01/10/2023 09:30 444555 |
+| 666777 | 02/10/2023 11:30:44 | 02/10/2023 11:30 666777 |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
