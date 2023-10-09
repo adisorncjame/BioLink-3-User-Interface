@@ -40,7 +40,28 @@ BioLink 3 User Interface Connect data via APi BioStar 2 <br>
 # Formats
 BioLink 3 User Interface Connect data via APi BioStar 2 <br>
 
-## Compensate
+### Syntax Formats
+| Letters Format | Compensate Amount | Text Alignment | Compensate |
+| ------------- | ------------- | ------------- | ------------- | 
+
+
+#### Example 1 : I want to export userid by adding - to the missing data on the right, 10 Characters
+
+##### Data Example
+| USERID |
+| ------------- | 
+| 444555 |
+| 666777 | 
+
+##### Formats
+| I | 10 | L | D |
+| ------------- | ------------- | ------------- | ------------- | 
+
+##### Result
+----444555
+----666777
+
+### Compensate
 | Letters | Export Value |
 | ------------- | ------------- |
 | W | White Space ( ) |
@@ -49,12 +70,14 @@ BioLink 3 User Interface Connect data via APi BioStar 2 <br>
 | C | Comma (,) |
 | E | Empty (Empty) |
 
-## Compensate
+### Text Alignment
 | Letters | Export Value |
 | ------------- | ------------- |
-| 
+| L | Left |
+| R | Right |
 
-## Letters Formats
+
+### Letters Formats
 | Letters | Export Value |
 | ------------- | ------------- |
 | D | Datetime |
