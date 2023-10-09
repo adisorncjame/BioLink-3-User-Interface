@@ -9,6 +9,7 @@ The program will retrieve data through BioStar 2 API and convert the data in jso
 
 ### Sequence Diagram
 BioLink 3 User Interface Connect data via APi BioStar 2 <br>
+
 ![image](https://github.com/adisorncjame/BioLink-3-User-Interface/assets/62010897/afdf1c31-c2f5-4f05-a96f-dce7190bee27)
 
 ## Features
