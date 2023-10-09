@@ -40,6 +40,20 @@ BioLink 3 User Interface Connect data via APi BioStar 2 <br>
 # Formats
 BioLink 3 User Interface Connect data via APi BioStar 2 <br>
 
+## Compensate
+| Letters | Export Value |
+| ------------- | ------------- |
+| W | White Space ( ) |
+| U | Underscore (_) |
+| D | Dash (-) |
+| C | Comma (,) |
+| E | Empty (Empty) |
+
+## Compensate
+| Letters | Export Value |
+| ------------- | ------------- |
+| 
+
 ## Letters Formats
 | Letters | Export Value |
 | ------------- | ------------- |
