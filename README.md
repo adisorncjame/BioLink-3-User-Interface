@@ -5,7 +5,7 @@ to forward the information to third party program payroll and has functions to f
 
 
 ## Flow Diagram
-The program will retrieve data through API and convert the data in json format to text file as we define and customize.
+The program will retrieve data through BioStar 2 API and convert the data in json format to text file as we define and customize.
 
 ### Sequence Diagram
 BioLink 3 User Interface Connect data via APi BioStar 2 <br>
