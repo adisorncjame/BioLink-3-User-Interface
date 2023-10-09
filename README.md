@@ -1,6 +1,11 @@
 # BioLink-3-User-Interface
 BioLink 3 User Interface Version Universal
 
+## Flow Diagram
+### Sequence Diagram
+BioLink 3 User Interface Connect data via APi BioStar 2 <br>
+![image](https://github.com/adisorncjame/BioLink-3-User-Interface/assets/62010897/afdf1c31-c2f5-4f05-a96f-dce7190bee27)
+
 ## Features
   - Dashboard Access Logs ( Real Time )
   - Manual Export Access Logs To Text File on Payroll Custom Format
@@ -31,11 +36,6 @@ Basic specifications are based on The BioStar 2 Version
 | Windows 10 HOME | Support  |
 | Windows 11 PRO | Support  |
 | Windows 11 HOME | Support  |
-
-### Sequence Diagram
-BioLink 3 User Interface Connect data via APi BioStar 2 <br>
-![image](https://github.com/adisorncjame/BioLink-3-User-Interface/assets/62010897/afdf1c31-c2f5-4f05-a96f-dce7190bee27)
-
 
 # Formats
 BioLink 3 User Interface Connect data via APi BioStar 2 <br>
