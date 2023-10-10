@@ -97,9 +97,11 @@ BioLink 3 User Interface Connect data via APi BioStar 2 <br>
 ## Example
 
 #### Example 1
-I want to export userid by adding - to the missing data on the right, 10 Characters
+> If I want to export userid by adding - to the missing data on the right, 10 Characters  <br>
+
 | I | 10 | L | D |
 | ------------- | ------------- | ------------- | ------------- | 
+
 ##### Result
 | USERID | RESULT |
 | ------------- | ------------- | 
@@ -107,9 +109,12 @@ I want to export userid by adding - to the missing data on the right, 10 Charact
 | 666777 | ----666777 |
 
 #### Example 2
-I want to export userid and datetime format dd/mm/yyyy HH:ss
+
+> If I want to export userid and datetime format dd/mm/yyyy HH:ss <br>
+
 | I6LW | Ddd/MM/yyyy HH:mmLW | 
 | ------------- | ------------- |
+
 ##### Result
 | USERID | DATETIME | RESULT |
 | ------------- | ------------- | ------------- | 
