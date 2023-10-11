@@ -13,27 +13,18 @@ to forward the information to third party program payroll and has functions to f
 * [User Guide](#user-guide)
   * [Installation](#installation)
     * [System Requirments](#system-requirments)
+    * [License](#system-requirments)
     * [Users Interface](#users-interface)
-    * [Automatic-Service](#automatic-service)
+    * [Automatic Service](#automatic-service)
   * [Configuration](#features)
-    * [Server.Config](#features)  
+    * [Basic Config](#features)  
     * [Formats](#features)
       * [Syntax Formats](#features)
       * [Compensate](#features)
       * [Text Alignment](#features)
       * [Letters Formats](#features)
-   * [Schedule](#features)
-     * [Schedule.Actions](#features)
-   * [Service.Automatic.Export](#features)
-      * [Text.Setting](#features)
-      * [Data.Setting](#features)
-   * [Service.Automatic.TranferFile](#features)
-      * [Server.Config](#features)
-      * [Data.Setting](#features)
-      * [Schedule](#features)
    * [Example](#example)
-
-* [Demo Project](#demo-project)
+     
 * [Download](#download)
 
 # <a name="team-members"></a>Team Members
@@ -56,14 +47,20 @@ to forward the information to third party program payroll and has functions to f
 The program will retrieve data through BioStar 2 API and convert the data in json format to text file as we define and customize.
 ### Sequence Diagram
 BioLink 3 User Interface Connect data via APi BioStar 2 <br>
+
 ![image](https://github.com/adisorncjame/BioLink-3-User-Interface/assets/62010897/afdf1c31-c2f5-4f05-a96f-dce7190bee27)
 
 # <a name="user-guide"></a> User Guide
-## System Requirments
+
+## <a name="installation"></a>Installation
+
+### <a name="system-requirments">System Requirments
+
 Basic specifications are based on The BioStar 2 Version
+
 ![image](https://github.com/adisorncjame/BioLink-3-User-Interface/assets/62010897/08fd4d2c-5c33-4743-b095-268382e8da4e)
 
-### Operating System ( OS ) Support 
+#### Operating System ( OS ) Support 
 | Operating System | Support |
 | ------------- | ------------- |
 | Windows Server 2012 R2  | Out of Support |
@@ -74,7 +71,19 @@ Basic specifications are based on The BioStar 2 Version
 | Windows 11 PRO | Support  |
 | Windows 11 HOME | Support  |
 
-# Formats
+### <a name="users-interface">Users Interface</a>
+
+### <a name="service-automatic">Automatic Service</a>
+BioLink 3.1 has 2 automatic services divided into separate functions. <br>
+RunTime Service is a service for export logs from the Suprema scanner and modify the data To match the payroll of the Third Party Program. <br> 
+
+TranterFile is a service for text file uploads to external servers using FTP & SFTP Protocol for data transmission. <br>
+Able to set work automatically.
+
+working in parallel through scheduling 
+# <a name="users-interface">Configuration</a>
+
+## Formats
 BioLink 3 User Interface Connect data via APi BioStar 2 <br>
 
 ### Syntax Formats
@@ -125,7 +134,7 @@ BioLink 3 User Interface Connect data via APi BioStar 2 <br>
 | Y | User Custom Fields 10 |
 | % | Aphabet Charset |
 
-#<a name="example"></a>Example
+#<a name="example">Example</a>
 
 #### Example 1
 > If I want to export userid by adding - to the missing data on the right, 10 Characters  <br>
@@ -153,24 +162,6 @@ BioLink 3 User Interface Connect data via APi BioStar 2 <br>
 | 666777 | 02/10/2023 11:30:44 | 02/10/2023 11:30 666777 |
 
 
-#<a name="automatic-service">Automatic Service 
-
-BioLink 3 TranferFile is a service for importing time data files from machines or payroll program <br>
-as text file uploads to external servers using FTP & SFTP Protocol for data transmission. <br>
-Able to set work formats automatically.
-
-# Configuration
-
-##### [Server.Config]
-* server-address  : Server FTP or sFTP Path
-* encrypted-key-request ( )
-  * false : Not Request
-  * true  : Request
-    * encrypted-key-ssl-path ( )
-
-* ssl-mode ( Protocol FTP & sFTP ) 
-  * false : FTP
-  * true  : SFTP
 
 ##### [Data.Setting]
 
@@ -179,8 +170,6 @@ Able to set work formats automatically.
 ##### [Schedule.Actions]
 
 
-#<a name="demo-project">Download
->> Coming Soon <<
 
 #<a name="download">Download
 Release Package : >> Coming Soon <<
