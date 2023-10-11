@@ -1,5 +1,5 @@
 # BioLink-3-User-Interface
-  What is a BioLink 3 User Interface ? <br>
+  What is a BioLink 3 <br>
 BioLink 3 User Interface is a program that brings data from the time attendance ( Suprema Device ) a text format <br>
 to forward the information to third party program payroll and has functions to facilitate easy connection.
 
