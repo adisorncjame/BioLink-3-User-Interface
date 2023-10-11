@@ -13,14 +13,11 @@ to forward the information to third party program payroll and has functions to f
 * [User Guide](#user-guide)
   * [Installation](#installation)
     * [System Requirments](#system-requirments)
-    * [License](#system-requirments)
-    * [Users Interface](#users-interface)
-    * [Automatic Service](#automatic-service)
-  * [Configuration](#features)
-    * [Basic Config](#features)  
-    * [Formats](#features)
-      * [Syntax Formats](#features)
-      * [Compensate](#features)
+    * [License](#license)
+  * [Configuration](#configuration)
+    * [Formats](#formats)
+      * [Syntax Formats](#syntax-formats)
+      * [Compensate](#compensate)
       * [Text Alignment](#text-alignment)
       * [Letters Formats](#letters-formats)
    * [Example](#example)
@@ -45,14 +42,17 @@ to forward the information to third party program payroll and has functions to f
 
 # <a name="work-flow"> Workflow
 The program will retrieve data through BioStar 2 API and convert the data in json format to text file as we define and customize.
-### Sequence Diagram
 BioLink 3 User Interface Connect data via APi BioStar 2 <br>
 
 ![image](https://github.com/adisorncjame/BioLink-3-User-Interface/assets/62010897/afdf1c31-c2f5-4f05-a96f-dce7190bee27)
 
 # <a name="user-guide"></a> User Guide
 
+Introducing basic setup and usage methods.
+
 ## <a name="installation"></a>Installation
+
+How to install: You can download the file and install it according to the instructions. Recommended below.
 
 ### <a name="system-requirments">System Requirments
 
@@ -71,26 +71,38 @@ Basic specifications are based on The BioStar 2 Version
 | Windows 11 PRO | Support  |
 | Windows 11 HOME | Support  |
 
+### <a name="license">License</a>
+
+Licenses are divided according to the format in the table. You can contact ControlA Global Company limited for details. <br>
+
+|  Standard | Professional | Customized |
+| ------------- | ------------- | ------------- |
+
 ### <a name="users-interface">Users Interface</a>
+
+User interface That makes setting up and extracting data easy.
 
 ### <a name="service-automatic">Automatic Service</a>
 BioLink 3.1 has 2 automatic services divided into separate functions. <br>
+
 RunTime Service is a service for export logs from the Suprema scanner and modify the data To match the payroll of the Third Party Program. <br> 
 
 TranterFile is a service for text file uploads to external servers using FTP & SFTP Protocol for data transmission. <br>
 Able to set work automatically.
-
 working in parallel through scheduling 
+
 # <a name="users-interface">Configuration</a>
 
-## Formats
+Settings are divided into short topics. Follow the instructions.
+
+## <a name="formats">Formats</a>
 BioLink 3 User Interface Connect data via APi BioStar 2 <br>
 
-### Syntax Formats
+### <a name="syntax-formats">Syntax Formats</a>
 | Letters Format | Compensate Amount | Text Alignment | Compensate |
 | ------------- | ------------- | ------------- | ------------- | 
 
-### Compensate
+### <a name="compensate">Compensate</a>
 | Letters | Export Value |
 | ------------- | ------------- |
 | W | White Space ( ) |
@@ -99,7 +111,7 @@ BioLink 3 User Interface Connect data via APi BioStar 2 <br>
 | C | Comma (,) |
 | E | Empty (Empty) |
 
-### Text Alignment
+### <a name="text-alignment">Text Alignment</a>
 | Letters | Export Value |
 | ------------- | ------------- |
 | L | Left |
@@ -165,7 +177,7 @@ Examples of common customer needs and recommendations on how to set up settinfs 
 
 
 # <a name="customer">Customer</a>
-- Boonrawd brewery co. ltd 
+- Boonrawd brewery co. ltd
 - UMC ELECTRONICS (THAILAND) LIMITED
 - Jaspal company limited
 - THAI SECOM SECURITY Co., Ltd.
