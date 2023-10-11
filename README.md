@@ -122,6 +122,35 @@ BioLink 3 User Interface Connect data via APi BioStar 2 <br>
 | 666777 | 02/10/2023 11:30:44 | 02/10/2023 11:30 666777 |
 
 
+# BioLink 3 TranferFile Service
+
+BioLink 3 TranferFile is a service for importing time data files from machines or payroll program <br>
+as text file uploads to external servers using FTP & SFTP Protocol for data transmission. <br>
+Able to set work formats automatically.
+
+# Configuration
+
+##### [Server.Config]
+* server-address  : Server FTP or sFTP Path
+* encrypted-key-request ( )
+  * false : Not Request
+  * true  : Request
+    * encrypted-key-ssl-path ( )
+
+* ssl-mode ( Protocol FTP & sFTP ) 
+  * false : FTP
+  * true  : SFTP
+
+##### [Data.Setting]
+
+##### [Schedule]
+
+##### [Schedule.Actions]
+
+# Download
+Release-1042023 : https://drive.google.com/file/d/1U1_evnsRJtqlXZSo6BX6SaebbDeee-p6/view?usp=sharing
+
+
 
 
 
