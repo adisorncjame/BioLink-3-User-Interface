@@ -6,7 +6,7 @@ What is a BioLink 3.1 ? <br>
 a program that brings data from the time attendance ( Suprema Device ) a text format <br>
 to forward the information to third party program payroll and has functions to facilitate easy connection.
 
-# Table of Content 
+# Table of Content 🧮
 * [Team Members](#team-members)
 * [Feature](#features)
 * [Workflow](#work-flow)
@@ -24,10 +24,10 @@ to forward the information to third party program payroll and has functions to f
 * [Customer](#customer)
 * [Download](#download)
 
-# <a name="team-members"></a>Team Members
+# <a name="team-members"></a>Team Members ☕
 * "Adisorn J. Charoenphornrungruang" <adisornc.jame@gmail.com>
  
-# <a name="features">Features</a>
+# <a name="features">Features ♨️</a>
   - Dashboard Access Logs ( Real Time )
   - Manual Export Access Logs To Text File on Payroll Custom Format
   - Manual Export Access Logs To CSV File Support
@@ -40,7 +40,7 @@ to forward the information to third party program payroll and has functions to f
   - Automatic Export Text File
   - Automatic Tranfer File Protocol FTP or sFTP
 
-# <a name="work-flow"> Workflow
+# <a name="work-flow"> Workflow 🎆
 The program will retrieve data through BioStar 2 API and convert the data in json format to text file as we define and customize.
 BioLink 3 User Interface Connect data via APi BioStar 2 <br>
 
@@ -91,7 +91,7 @@ TranterFile is a service for text file uploads to external servers using FTP & S
 Able to set work automatically.
 working in parallel through scheduling 
 
-# <a name="users-interface">Configuration</a>
+# <a name="users-interface">Configuration 🧱</a>
 
 Settings are divided into short topics. Follow the instructions.
 
@@ -146,7 +146,7 @@ BioLink 3 User Interface Connect data via APi BioStar 2 <br>
 | Y | User Custom Fields 10 |
 | % | Aphabet Charset |
 
-# <a name="example">Example</a>
+# <a name="example">Example 📋</a>
 
 Examples of common customer needs and recommendations on how to set up settinfs to meet customer needs.
 <br>
@@ -176,7 +176,7 @@ Examples of common customer needs and recommendations on how to set up settinfs 
 | 666777 | 02/10/2023 11:30:44 | 02/10/2023 11:30 666777 |
 
 
-# <a name="customer">Customer</a>
+# <a name="customer">Customers 🥇</a>
 - Boonrawd brewery co. ltd
 - UMC ELECTRONICS (THAILAND) LIMITED
 - Jaspal company limited
@@ -187,8 +187,9 @@ Examples of common customer needs and recommendations on how to set up settinfs 
 - Aisin Asia Pacific Co., Ltd.
 - DHL ( Techcomic )
 
-# <a name="download">Download
-Release Package : >> Coming Soon <<
+# <a name="download">Download 🐈 </a>
+User Manual : [Download](https://link-url-here.org) <br>
+Release Package : [Download](https://link-url-here.org)
 
 
 
