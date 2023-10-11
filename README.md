@@ -13,8 +13,8 @@ to forward the information to third party program payroll and has functions to f
 * [User Guide](#user-guide)
   * [Installation](#installation)
     * [System Requirments](#system-requirments)
-    * [User Interface](#users)
-    * [Service Automatic](#features)
+    * [Users Interface](#users-interface)
+    * [Automatic-Service](#automatic-service)
   * [Configuration](#features)
     * [Server.Config](#features)  
     * [Formats](#features)
@@ -23,22 +23,22 @@ to forward the information to third party program payroll and has functions to f
       * [Text Alignment](#features)
       * [Letters Formats](#features)
    * [Schedule](#features)
-     * [Schedule.Actions]
+     * [Schedule.Actions](#features)
    * [Service.Automatic.Export](#features)
       * [Text.Setting](#features)
       * [Data.Setting](#features)
    * [Service.Automatic.TranferFile](#features)
       * [Server.Config](#features)
       * [Data.Setting](#features)
-      * [Schedule]
-   * [Example]
+      * [Schedule](#features)
+   * [Example](#example)
 
-* [Demo Project](#features)
-* [Download](#features)
+* [Demo Project](#demo-project)
+* [Download](#download)
 
 # <a name="team-members"></a>Team Members
 * "Adisorn J. Charoenphornrungruang" <adisornc.jame@gmail.com>
-
+ 
 # <a name="features"></a> Features
   - Dashboard Access Logs ( Real Time )
   - Manual Export Access Logs To Text File on Payroll Custom Format
@@ -125,7 +125,7 @@ BioLink 3 User Interface Connect data via APi BioStar 2 <br>
 | Y | User Custom Fields 10 |
 | % | Aphabet Charset |
 
-## Example
+#<a name="example"></a>Example
 
 #### Example 1
 > If I want to export userid by adding - to the missing data on the right, 10 Characters  <br>
@@ -153,7 +153,7 @@ BioLink 3 User Interface Connect data via APi BioStar 2 <br>
 | 666777 | 02/10/2023 11:30:44 | 02/10/2023 11:30 666777 |
 
 
-# BioLink 3 TranferFile Service
+#<a name="automatic-service">Automatic Service 
 
 BioLink 3 TranferFile is a service for importing time data files from machines or payroll program <br>
 as text file uploads to external servers using FTP & SFTP Protocol for data transmission. <br>
@@ -178,17 +178,12 @@ Able to set work formats automatically.
 
 ##### [Schedule.Actions]
 
-# Download
 
-### User Interface
-Release-1042023 : https://drive.google.com/file/d/1U1_evnsRJtqlXZSo6BX6SaebbDeee-p6/view?usp=sharing
+#<a name="demo-project">Download
+>> Coming Soon <<
 
-### Service Export File
-Release-1042023 : https://drive.google.com/file/d/1U1_evnsRJtqlXZSo6BX6SaebbDeee-p6/view?usp=sharing
-
-### Service Tranfer File
-Release-1042023 : https://drive.google.com/file/d/1U1_evnsRJtqlXZSo6BX6SaebbDeee-p6/view?usp=sharing
-
+#<a name="download">Download
+Release Package : >> Coming Soon <<
 
 
 
