@@ -1,6 +1,7 @@
 
 ![biolink-31-low-resolution-logo-color-on-transparent-background](https://github.com/adisorncjame/BioLink-3-User-Interface/assets/62010897/41979f6b-9040-49dc-aefb-5b653a1c55a5)
 <hr>
+<H1>Overview</H1>
   What is a BioLink 3 <br>
 BioLink 3 User Interface is a program that brings data from the time attendance ( Suprema Device ) a text format <br>
 to forward the information to third party program payroll and has functions to facilitate easy connection.
@@ -8,25 +9,35 @@ to forward the information to third party program payroll and has functions to f
 # Table of Content 
 * [Team Members](#team-members)
 * [Feature](#features)
-* [Workflow](#features)
-* [User Guide](#features)
+* [Workflow](#work-flow)
+* [User Guide](#user-guide)
   * [Installation](#features)
     * [System Requirments](#features)
   * [Configuration](#features)
+    * [Server.Config](#features)  
     * [Formats](#features)
-      * [Syntax Formats](#features)
       * [Syntax Formats](#features)
       * [Compensate](#features)
       * [Text Alignment](#features)
       * [Letters Formats](#features)
-    * [Schedule](#features)
+   * [Schedule](#features)
+     * [Schedule.Actions]
+   * [Service.Automatic.Export](#features)
+      * [Text.Setting](#features)
+      * [Data.Setting](#features)
+   * [Service.Automatic.TranferFile](#features)
+      * [Server.Config](#features)
+      * [Data.Setting](#features)
+      * [Schedule]
+   * [Example]
+     
 
-
-    
+* [Demo Project](#features)
+* [Download](#features)
 
 # <a name="team-members"></a>Team Members
 * "Adisorn J. Charoenphornrungruang" <adisornc.jame@gmail.com>
-  
+
 # <a name="features"></a> Features
   - Dashboard Access Logs ( Real Time )
   - Manual Export Access Logs To Text File on Payroll Custom Format
@@ -39,18 +50,16 @@ to forward the information to third party program payroll and has functions to f
   - Upload FTP ( Fix Bugs )
   - Automatic Export Text File
   - Automatic Tranfer File Protocol FTP or sFTP
-
+  - 
 # <a name="work-flow"> Workflow
 The program will retrieve data through BioStar 2 API and convert the data in json format to text file as we define and customize.
-
 ### Sequence Diagram
 BioLink 3 User Interface Connect data via APi BioStar 2 <br>
-
 ![image](https://github.com/adisorncjame/BioLink-3-User-Interface/assets/62010897/afdf1c31-c2f5-4f05-a96f-dce7190bee27)
-# <a name="features"></a> Features
+
+# <a name="user-guide"></a> User Guide
 ## System Requirments
 Basic specifications are based on The BioStar 2 Version
-
 ![image](https://github.com/adisorncjame/BioLink-3-User-Interface/assets/62010897/08fd4d2c-5c33-4743-b095-268382e8da4e)
 
 ### Operating System ( OS ) Support 
