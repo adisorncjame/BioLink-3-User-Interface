@@ -2,8 +2,8 @@
 ![biolink-31-low-resolution-logo-color-on-transparent-background](https://github.com/adisorncjame/BioLink-3-User-Interface/assets/62010897/41979f6b-9040-49dc-aefb-5b653a1c55a5)
 
 <H1>Overview</H1>
-  What is a BioLink 3 <br>
-BioLink 3 User Interface is a program that brings data from the time attendance ( Suprema Device ) a text format <br>
+What is a BioLink 3.1 ? <br>
+a program that brings data from the time attendance ( Suprema Device ) a text format <br>
 to forward the information to third party program payroll and has functions to facilitate easy connection.
 
 # Table of Content 
@@ -21,16 +21,16 @@ to forward the information to third party program payroll and has functions to f
     * [Formats](#features)
       * [Syntax Formats](#features)
       * [Compensate](#features)
-      * [Text Alignment](#features)
-      * [Letters Formats](#features)
+      * [Text Alignment](#text-alignment)
+      * [Letters Formats](#letters-formats)
    * [Example](#example)
-     
+* [Customer](#customer)
 * [Download](#download)
 
 # <a name="team-members"></a>Team Members
 * "Adisorn J. Charoenphornrungruang" <adisornc.jame@gmail.com>
  
-# <a name="features"></a> Features
+# <a name="features">Features</a>
   - Dashboard Access Logs ( Real Time )
   - Manual Export Access Logs To Text File on Payroll Custom Format
   - Manual Export Access Logs To CSV File Support
@@ -105,7 +105,7 @@ BioLink 3 User Interface Connect data via APi BioStar 2 <br>
 | L | Left |
 | R | Right |
 
-### Letters Formats
+### <a name="letters-formats">Letters Formats</a>
 | Letters | Export Value |
 | ------------- | ------------- |
 | D | Datetime |
@@ -134,21 +134,22 @@ BioLink 3 User Interface Connect data via APi BioStar 2 <br>
 | Y | User Custom Fields 10 |
 | % | Aphabet Charset |
 
-#<a name="example">Example</a>
+# <a name="example">Example</a>
 
-#### Example 1
+Examples of common customer needs and recommendations on how to set up settinfs to meet customer needs.
+<br>
+
 > If I want to export userid by adding - to the missing data on the right, 10 Characters  <br>
 
 | I | 10 | L | D |
 | ------------- | ------------- | ------------- | ------------- | 
 
 ##### Result
+
 | USERID | RESULT |
 | ------------- | ------------- | 
 | 444555 | ----444555 |
 | 666777 | ----666777 |
-
-#### Example 2
 
 > If I want to export userid and datetime format dd/mm/yyyy HH:ss <br>
 
@@ -156,23 +157,27 @@ BioLink 3 User Interface Connect data via APi BioStar 2 <br>
 | ------------- | ------------- |
 
 ##### Result
+
 | USERID | DATETIME | RESULT |
 | ------------- | ------------- | ------------- | 
 | 444555 | 01/10/2023 09:30:44 | 01/10/2023 09:30 444555 |
 | 666777 | 02/10/2023 11:30:44 | 02/10/2023 11:30 666777 |
 
 
+# <a name="customer">Customer</a>
+- Boonrawd brewery co. ltd 
+- UMC ELECTRONICS (THAILAND) LIMITED
+- Jaspal company limited
+- THAI SECOM SECURITY Co., Ltd.
+- Qarbon Aerospace (Thailand) Co., Ltd.
+- SRI TRANG IBC COMPANY LIMITED
+- Nation Group (Thailand) Public Company Limited
+- Aisin Asia Pacific Co., Ltd.
+- DHL ( Techcomic )
 
-##### [Data.Setting]
-
-##### [Schedule]
-
-##### [Schedule.Actions]
-
-
-
-#<a name="download">Download
+# <a name="download">Download
 Release Package : >> Coming Soon <<
+
 
 
 
