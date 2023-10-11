@@ -188,8 +188,8 @@ Examples of common customer needs and recommendations on how to set up settinfs 
 - DHL ( Techcomic )
 
 # <a name="download">Download 🐈 </a>
-User Manual : [Download](https://link-url-here.org) <br>
-Release Package : [Download](https://link-url-here.org)
+User Manual : [Download](https://drive.google.com/drive/folders/15dv8OFlLcvTltJplLHxUrWYcCqEwzmIJ?usp=sharing) <br>
+Release Package : [Download](https://drive.google.com/drive/folders/1BFcpkFn-XP0_hoVno_QXoQJOEHaQAvYU?usp=sharing)
 
 
 
