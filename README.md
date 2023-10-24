@@ -75,8 +75,13 @@ Basic specifications are based on The BioStar 2 Version
 
 Licenses are divided according to the format in the table. You can contact ControlA Global Company limited for details. <br>
 
-|  Standard | Professional | Customized |
-| ------------- | ------------- | ------------- |
+| Function |  Standard | Professional | Customized |
+| ------------- | ------------- | ------------- | ------- |
+| Manual Export | Yes | Yes | Yes | 
+| Auto Export | No | Yes | Yes| 
+| Filter Basic | Yes | Yes | Yes |
+
+
 
 ### <a name="users-interface">Users Interface</a>
 
