@@ -78,7 +78,8 @@ Licenses are divided according to the format in the table. You can contact Contr
 | Function |  Standard | Professional | Customized |
 | ------------- | ------------- | ------------- | ------- |
 | Manual Export | Yes | Yes | Yes | 
-| Auto Export | No | Yes | Yes| 
+| Auto Export | No | Yes | Yes|
+| FTP & sFTP | No | Yes | Yes |
 | Filter Basic | Yes | Yes | Yes |
 
 
